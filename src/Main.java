@@ -37,38 +37,38 @@ public class Main {
         hrManager.addEmployee();
 
         // BT3
-//        System.out.print("\nExercise 3: \n");
-//        Manager manager = new Manager();
-//        Developer developer = new Developer();
-//        Programmer programmer = new Programmer();
-//
-//        System.out.println("Enter data for a manager:");
-//        manager.readData();
-//        System.out.println("\nEnter data for a developer:");
-//        developer.readData();
-//        System.out.println("\nEnter data for a programmer:");
-//        programmer.readData();
-//
-//        System.out.println("\nInfo of manager: ");
-//        manager.displayInfo();
-//        System.out.println("\nInfo of developer: ");
-//        developer.displayInfo();
-//        System.out.println("\nInfo of programmer: ");
-//        programmer.displayInfo();
-//
-//        System.out.println("\nResult: \n");
-//
-//        manager.calculateBonus();
-//        developer.calculateBonus();
-//        programmer.calculateBonus();
-//
-//        manager.reportPerformance("Excellent");
-//        developer.reportPerformance("Good");
-//        programmer.reportPerformance("Excellent");
-//
-//        manager.manageProject();
-//        developer.writeCode();
-//        programmer.debugCode();
+        System.out.print("\nExercise 3: \n");
+        Manager manager = new Manager();
+        Developer developer = new Developer();
+        Programmer programmer = new Programmer();
+
+        System.out.println("Enter data for a manager:");
+        manager.readData();
+        System.out.println("\nEnter data for a developer:");
+        developer.readData();
+        System.out.println("\nEnter data for a programmer:");
+        programmer.readData();
+
+        System.out.println("\nInfo of manager: ");
+        manager.displayInfo();
+        System.out.println("\nInfo of developer: ");
+        developer.displayInfo();
+        System.out.println("\nInfo of programmer: ");
+        programmer.displayInfo();
+
+        System.out.println("\nResult: \n");
+
+        manager.calculateBonus();
+        developer.calculateBonus();
+        programmer.calculateBonus();
+
+        manager.reportPerformance("Excellent");
+        developer.reportPerformance("Good");
+        programmer.reportPerformance("Excellent");
+
+        manager.manageProject();
+        developer.writeCode();
+        programmer.debugCode();
 
         // BT4
         System.out.print("\nExercise 4: \n");
